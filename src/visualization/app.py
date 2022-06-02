@@ -238,12 +238,12 @@ else:
 
 st.header('BERTopic')
 
-p1 = open("bar.html")
+p1 = open("https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/bar.html")
 components.html(p1.read(), height=500, width=1500)
 
 
-p2 = open("https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/65469c3d62724fa14992198c591bf3d0ba092e9c/src/visualization/hierarchy.html")
+p2 = open("https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/hierarchy.html")
 components.html(p2.read(), height=7700, width=1500)
 
-p3 = open("https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/65469c3d62724fa14992198c591bf3d0ba092e9c/src/visualization/time.html")
+p3 = open("https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/time.html")
 components.html(p3.read(), height=400, width=1500)
