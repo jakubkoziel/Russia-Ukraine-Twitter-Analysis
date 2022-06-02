@@ -17,7 +17,7 @@ st.set_page_config(layout="wide")
 
 @st.cache(allow_output_mutation=True)
 def load_data():
-    names_counts = ['./counts/feb21_counts.csv',
+    names_counts = ['Russia-Ukraine-Twitter-Analysis/src/visualization/counts/feb21_counts.csv',
                     './counts/feb22_counts.csv',
                     './counts/feb23_counts.csv',
                     './counts/feb24_counts.csv',
