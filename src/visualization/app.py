@@ -8,6 +8,7 @@ import matplotlib
 from matplotlib.pyplot import figure
 # matplotlib.use('Agg')
 import csv
+import urllib.request
 
 import streamlit.components.v1 as components
 
@@ -238,9 +239,11 @@ else:
 
 st.header('BERTopic')
 
-p1 = open("https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/bar.html")
-components.html(p1.read(), height=500, width=1500)
 
+
+p1 = urllib.request.urlopen("https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/bar.html")
+components.html(p1.read(), height=500, width=1500)
+p1.close()
 
 p2 = open("https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/hierarchy.html")
 components.html(p2.read(), height=7700, width=1500)
