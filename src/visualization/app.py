@@ -17,7 +17,7 @@ st.set_page_config(layout="wide")
 
 @st.cache(allow_output_mutation=True)
 def load_data():
-    names_counts = ['feb21_counts.csv',
+    names_counts = ['https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/65469c3d62724fa14992198c591bf3d0ba092e9c/src/visualization/counts/feb21_counts.csv',
                     './counts/feb22_counts.csv',
                     './counts/feb23_counts.csv',
                     './counts/feb24_counts.csv',
