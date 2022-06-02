@@ -57,7 +57,7 @@ def load_data_bigrams():
     names_counts = ['https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/65469c3d62724fa14992198c591bf3d0ba092e9c/src/visualization/bigrams/feb21_bigrams.csv',
                     'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/65469c3d62724fa14992198c591bf3d0ba092e9c/src/visualization/bigrams/feb22_bigrams.csv',
                     'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/65469c3d62724fa14992198c591bf3d0ba092e9c/src/visualization/bigrams/feb23_bigrams.csv',
-                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/65469c3d62724fa14992198c591bf3d0ba092e9c/src/visualization/bigrams/feb24_bigrams.csv,
+                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/65469c3d62724fa14992198c591bf3d0ba092e9c/src/visualization/bigrams/feb24_bigrams.csv',
                     'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/65469c3d62724fa14992198c591bf3d0ba092e9c/src/visualization/bigrams/feb25_bigrams.csv',
                     'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/65469c3d62724fa14992198c591bf3d0ba092e9c/src/visualization/bigrams/feb26_bigrams.csv',
                     'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/65469c3d62724fa14992198c591bf3d0ba092e9c/src/visualization/bigrams/feb27_bigrams.csv',
