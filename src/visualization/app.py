@@ -245,8 +245,11 @@ p1 = urllib.request.urlopen("https://raw.githubusercontent.com/jakubkoziel/Russi
 components.html(p1.read(), height=500, width=1500)
 p1.close()
 
-p2 = open("https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/hierarchy.html")
+p2 = urllib.request.urlopen("https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/hierarchy.html")
 components.html(p2.read(), height=7700, width=1500)
+p2.close()
 
-p3 = open("https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/time.html")
+
+p3 = urllib.request.urlopen("https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/time.html")
 components.html(p3.read(), height=400, width=1500)
+p3.close()
