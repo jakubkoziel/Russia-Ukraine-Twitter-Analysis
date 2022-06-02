@@ -17,17 +17,17 @@ st.set_page_config(layout="wide")
 
 @st.cache(allow_output_mutation=True)
 def load_data():
-    names_counts = ['counts/feb21_counts.csv',
-                    'counts/feb22_counts.csv',
-                    'counts/feb23_counts.csv',
-                    'counts/feb24_counts.csv',
-                    'counts/feb25_counts.csv',
-                    'counts/feb26_counts.csv',
-                    'counts/feb27_counts.csv',
-                    'counts/feb28_counts.csv',
-                    'counts/mar01_counts.csv',
-                    'counts/mar02_counts.csv',
-                    'counts/mar03_counts.csv']
+    names_counts = ['./counts/feb21_counts.csv',
+                    './counts/feb22_counts.csv',
+                    './counts/feb23_counts.csv',
+                    './counts/feb24_counts.csv',
+                    './counts/feb25_counts.csv',
+                    './counts/feb26_counts.csv',
+                    './counts/feb27_counts.csv',
+                    './counts/feb28_counts.csv',
+                    './counts/mar01_counts.csv',
+                    './counts/mar02_counts.csv',
+                    './counts/mar03_counts.csv']
     l = []
     for name in names_counts:
 
@@ -54,17 +54,17 @@ def load_data():
 
 @st.cache(allow_output_mutation=True)
 def load_data_bigrams():
-    names_counts = ['bigrams/feb21_bigrams.csv',
-                    'bigrams/feb22_bigrams.csv',
-                    'bigrams/feb23_bigrams.csv',
-                    'bigrams/feb24_bigrams.csv',
-                    'bigrams/feb25_bigrams.csv',
-                    'bigrams/feb26_bigrams.csv',
-                    'bigrams/feb27_bigrams.csv',
-                    'bigrams/feb28_bigrams.csv',
-                    'bigrams/mar01_bigrams.csv',
-                    'bigrams/mar02_bigrams.csv',
-                    'bigrams/mar03_bigrams.csv']
+    names_counts = ['./bigrams/feb21_bigrams.csv',
+                    './bigrams/feb22_bigrams.csv',
+                    './bigrams/feb23_bigrams.csv',
+                    './bigrams/feb24_bigrams.csv',
+                    './bigrams/feb25_bigrams.csv',
+                    './bigrams/feb26_bigrams.csv',
+                    './bigrams/feb27_bigrams.csv',
+                    './bigrams/feb28_bigrams.csv',
+                    './bigrams/mar01_bigrams.csv',
+                    './bigrams/mar02_bigrams.csv',
+                    './bigrams/mar03_bigrams.csv']
     l = []
     for name in names_counts:
         # print(name)
