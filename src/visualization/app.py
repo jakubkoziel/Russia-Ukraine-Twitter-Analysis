@@ -193,7 +193,7 @@ st.header('Numerosity based')
 
 data, all_l = load_data()
 
-#data_b, all_b = load_data_bigrams()
+data_b, all_b = load_data_bigrams()
 
 st.subheader('All time trends')
 st.write('Plots most popular words')
