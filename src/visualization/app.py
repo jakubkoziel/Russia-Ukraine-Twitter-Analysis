@@ -55,17 +55,17 @@ def load_data():
 
 @st.cache(allow_output_mutation=True)
 def load_data_bigrams():
-    names_counts = ['https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/src/visualization/bigrams/feb21_bigrams.csv',
-                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/src/visualization/bigrams/feb22_bigrams.csv',
-                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/src/visualization/bigrams/feb23_bigrams.csv',
-                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/src/visualization/bigrams/feb24_bigrams.csv',
-                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/src/visualization/bigrams/feb25_bigrams.csv',
-                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/src/visualization/bigrams/feb26_bigrams.csv',
-                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/src/visualization/bigrams/feb27_bigrams.csv',
-                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/src/visualization/bigrams/feb28_bigrams.csv',
-                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/src/visualization/bigrams/mar01_bigrams.csv',
-                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/src/visualization/bigrams/mar02_bigrams.csv',
-                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/src/visualization/bigrams/mar03_bigrams.csv']
+    names_counts = ['https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/bigrams/feb21_bigrams.csv',
+                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/bigrams/feb22_bigrams.csv',
+                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/bigrams/feb23_bigrams.csv',
+                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/bigrams/feb24_bigrams.csv',
+                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/bigrams/feb25_bigrams.csv',
+                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/bigrams/feb26_bigrams.csv',
+                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/bigrams/feb27_bigrams.csv',
+                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/bigrams/feb28_bigrams.csv',
+                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/bigrams/mar01_bigrams.csv',
+                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/bigrams/mar02_bigrams.csv',
+                    'https://raw.githubusercontent.com/jakubkoziel/Russia-Ukraine-Twitter-Analysis/streamlit-app/src/visualization/bigrams/mar03_bigrams.csv']
     l = []
     for name in names_counts:
         # print(name)
